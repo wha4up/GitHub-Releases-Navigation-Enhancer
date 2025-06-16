@@ -92,7 +92,7 @@
 
 1.  确保您的浏览器已安装上述任一用户脚本管理器。
    
-2.  [**点击这里**](./GitHub-Releases-Navigation-Enhancer.user.js) 安装脚本。
+2.  [**点击这里**](https://raw.githubusercontent.com/wha4up/GitHub-Releases-Navigation-Enhancer/main/GitHub-Releases-Navigation-Enhancer.user.js) 安装脚本。
    
 
 ### 使用方法
