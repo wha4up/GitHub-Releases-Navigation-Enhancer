@@ -4,7 +4,7 @@
 // @name:en              GitHub Releases Navigation Enhancer
 // @namespace            https://github.com/wha4up
 // @icon                 data:image/webp;base64,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
-// @version              2.0.0
+// @version              2.0.1
 // @description          本脚本基于 eecopilot 的 github-release-platform-filter (版本 0.3.3) 修改而来，主要调整筛选按钮位置和样式、增加深色模式、补充筛选选项和用户自定义设置等功能。此版本重构了核心状态管理系统，以提高稳定性与性能。
 // @description:zh-CN    本脚本基于 eecopilot 的 github-release-platform-filter (版本 0.3.3) 修改而来，主要调整筛选按钮位置和样式、增加深色模式、补充筛选选项和用户自定义设置等功能。此版本重构了核心状态管理系统，以提高稳定性与性能。
 // @description:en       This script is modified based on eecopilot's github-release-platform-filter (version 0.3.3), mainly adjusting the position and style of the filtering buttons, adding dark mode, supplementary filtering options, and user-customizable settings, etc. This version refactors the core state management system for improved stability and performance.
@@ -59,7 +59,6 @@
 
     // =================================================================================
     // [模块] 点击外部关闭处理器 (Click-Outside Handler)
-    // 模块说明：负责实现“点击页面空白区域关闭已展开的Release Notes”的功能。
     // =================================================================================
     const ReleaseNotesCollapser = class {
         constructor() {
@@ -90,14 +89,13 @@
             }
         }
 
-        // [FIXED v3.8.5] 修复了点击外部关闭功能会阻止其他链接默认行为的BUG
         handleDocumentClick(event) {
             if (!this.activePanel) return;
 
             if (event.type === 'touchend') {
                 const now = Date.now();
                 if (now - this.lastTapTime < 300) {
-                    event.preventDefault(); // 此处的 preventDefault 是为了防止移动端的“鬼点”(ghost click)，是必要的
+                    event.preventDefault();
                     return;
                 }
                 this.lastTapTime = now;
@@ -110,8 +108,6 @@
             }
 
             this.collapsePanel();
-            // 已移除错误的 event.preventDefault() 和 event.stopPropagation()。
-            // 现在的逻辑是：收起面板，并允许原始点击事件（如链接跳转）继续执行。
         }
 
         collapsePanel() {
@@ -137,7 +133,6 @@
 
     // =================================================================================
     // [模块] 状态管理器 (State Manager)
-    // 模块说明：提供一个轻量级的全局状态管理中心，用于响应式地更新UI。
     // =================================================================================
 
     const shallowEqual = (objA, objB) => {
@@ -220,7 +215,6 @@
 
         // =================================================================================
         // [模块] 配置 (Config)
-        // 模块说明：存储脚本的所有静态配置，包括常量、文本、选择器等。
         // =================================================================================
         config: {
             RELEASE_NOTES_MAX_HEIGHT_DEFAULT: 300,
@@ -318,7 +312,6 @@
 
         // =================================================================================
         // [模块] 图标 (Icons)
-        // 模块说明：存放UI中使用的SVG图标。
         // =================================================================================
         icons: {
             filter: `<svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-filter mr-2"><path d="M.75 3h14.5a.75.75 0 0 1 0 1.5H.75a.75.75 0 0 1 0-1.5ZM3 7.75A.75.75 0 0 1 3.75 7h8.5a.75.75 0 0 1 0 1.5h-8.5A.75.75 0 0 1 3 7.75Zm3 4a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"></path></svg>`,
@@ -330,7 +323,6 @@
 
         // =================================================================================
         // [模块] 规则与定义 (Rules & Definitions)
-        // 模块说明：定义了平台、架构、语言等分类的匹配规则。
         // =================================================================================
         platformArchRules: {
             windows: { name: 'Windows', keywords: ['windows', 'win', 'win10', 'win11'], arch: { x64: ['win64', 'x64', 'amd64'], x86: ['win32', 'x86', 'ia32', 'i386', 'i686', '386'], arm64: ['arm64'] } },
@@ -343,7 +335,6 @@
 
         // =================================================================================
         // [模块] 工具函数 (Utils)
-        // 模块说明：提供各种可复用的辅助工具函数，如创建DOM元素、获取国际化文本、环境检测等。
         // =================================================================================
         utils: {
             keywordRegexCache: new Map(),
@@ -502,7 +493,6 @@
 
         // =================================================================================
         // [模块] UI 相关 (UI)
-        // 模块说明：负责创建、管理和更新所有用户界面元素。
         // =================================================================================
         ui: {
             styles: {
@@ -581,7 +571,6 @@
 
         // =================================================================================
         // [模块] 核心逻辑 (Core)
-        // 模块说明：包含脚本的核心业务逻辑，如发布说明的展开/收起、资源文件的筛选等。
         // =================================================================================
         core: {
             releaseNotes: {
@@ -1204,7 +1193,6 @@
 
         // =================================================================================
         // [模块] 页面与导航 (Page & Navigation)
-        // 模块说明：处理页面加载、动态内容变化和SPA导航。
         // =================================================================================
         page: {
             observer: {
@@ -1271,7 +1259,6 @@
 
         // =================================================================================
         // [模块] 设置 (Settings)
-        // 模块说明：负责加载、保存和展示用户自定义设置。
         // =================================================================================
         settings: {
             parseHiddenKeywords(input) {
@@ -1416,7 +1403,7 @@
                     </div>`;
 
                     panelHTML += `<div class="${CN.SETTINGS_FORM_GROUP}"><label for="${S.SETTINGS_MAX_HEIGHT_INPUT.substring(1)}" class="${CN.SETTINGS_LABEL}">${GRE.utils.getText('settingsMaxHeightLabel')}</label><input type="number" id="${S.SETTINGS_MAX_HEIGHT_INPUT.substring(1)}" class="${CN.SETTINGS_INPUT}" value="${state.releaseNotesMaxHeight}" min="50" step="10"></div>`;
-                    panelHTML += `<div class="${CN.SETTINGS_FORM_GROUP}"><label for="${S.SETTINGS_HIDDEN_RULES_TEXTAREA.substring(1)}" class="${CN.SETTINGS_LABEL}">${GRE.utils.getText('settingsHiddenRuleLabel')}</label><textarea id="${S.SETTINGS_HIDDEN_RULES_TEXTAREA.substring(1)}" class="${CN.SETTINGS_TEXTAREA}" placeholder="${GRE.utils.getText('settingsHiddenRulePlaceholder')}">${state.hiddenKeywords.join(', ')}</textarea></div>`;
+                    panelHTML += `<div class="${CN.SETTINGS_FORM_GROUP}"><label for="${S.SETTINGS_HIDDEN_RULES_TEXTAREA.substring(1)}" class="${CN.SETTINGS_LABEL}">${GRE.utils.getText('settingsHiddenRuleLabel')}</label><textarea id="${S.SETTINGS_HIDDEN_RULES_TEXTAREA.substring(1)}" class="${CN.SETTINGS_TEXTAREA}" placeholder="${GRE.utils.getText('settingsHiddenRulePlaceholder')}">${state.hiddenKeywords.map(k => k.includes(' ') ? `'${k}'` : k).join(', ')}</textarea></div>`;
 
                     panelHTML += createCheckboxGroup(S.SETTINGS_CLICK_OUTSIDE_CHECKBOX.substring(1), 'settingsClickOutsideLabel', state.clickOutsideToCollapse);
 
@@ -1541,7 +1528,6 @@
 
         // =================================================================================
         // [模块] 用户操作 (Actions)
-        // 模块说明：定义用户可以触发的所有动作，如切换筛选条件、打开/关闭弹窗等。
         // =================================================================================
         actions: {
             togglePlatform(platformId) {
@@ -1666,20 +1652,47 @@
                         hideByKeyword: true,
                         hideSourceCode: false,
                      };
+                // [FIXED v2.0.0] 修复偏好筛选模式下的逻辑
                 } else if (state.filterMode === 'preferred' && Object.keys(state.preferredFilters).length > 0) {
+                    const { preferredFilters } = state;
+                    const validatedSelectedPlatforms = new Set();
+                    const validatedSelectedArchs = new Set();
+
+                    // 1. 验证用户偏好的平台在当前 Release 中是否可用
+                    if (preferredFilters.selectedPlatforms) {
+                        for (const platform of preferredFilters.selectedPlatforms) {
+                            if (state.availableFilters.has(platform)) {
+                                validatedSelectedPlatforms.add(platform);
+                            }
+                        }
+                    }
+
+                    // 2. 只有在至少一个偏好平台可用的情况下，才验证并选择偏好的架构
+                    if (validatedSelectedPlatforms.size > 0 && preferredFilters.selectedArchs) {
+                        for (const arch of preferredFilters.selectedArchs) {
+                            if (state.masterAvailableArchs.has(arch)) {
+                                validatedSelectedArchs.add(arch);
+                            }
+                        }
+                    }
                     newFilterState = {
-                        ...state.preferredFilters,
-                        selectedPlatforms: new Set(state.preferredFilters.selectedPlatforms),
-                        selectedArchs: new Set(state.preferredFilters.selectedArchs),
+                        ...preferredFilters,
+                        selectedPlatforms: validatedSelectedPlatforms,
+                        selectedArchs: validatedSelectedArchs,
                     };
-                } else {
+                } else { // 智能筛选模式
+                    // [FIXED v2.0.1] 修复智能筛选模式下的逻辑
                     const selectedPlatforms = new Set();
+                    const selectedArchs = new Set();
+
+                    // 1. 检查用户的当前平台在 Release 中是否可用
                     if (state.availableFilters.has(state.currentUserPlatform)) {
                         selectedPlatforms.add(state.currentUserPlatform);
-                    }
-                    const selectedArchs = new Set();
-                    if (state.availableArchs.has(state.currentUserArchitecture)) {
-                        selectedArchs.add(state.currentUserArchitecture);
+
+                        // 2. 只有在平台匹配后，才检查并选择架构
+                        if (state.availableArchs.has(state.currentUserArchitecture)) {
+                            selectedArchs.add(state.currentUserArchitecture);
+                        }
                     }
                     newFilterState = {
                         selectedPlatforms,
@@ -1706,7 +1719,6 @@
 
         // =================================================================================
         // [模块] 初始化与主函数 (Initialization & Main)
-        // 模块说明：脚本的入口点，负责初始化所有模块、加载设置和启动监听器。
         // =================================================================================
         async init() {
             try {
