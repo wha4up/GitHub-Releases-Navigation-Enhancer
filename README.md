@@ -4,9 +4,10 @@
 
 > 🚀 本脚本基于 [eecopilot/github-release-platform-filter](https://github.com/eecopilot/github-release-platform-filter) (v0.3.3) 大幅重构和功能增强而来，由 🤖**Gemini** 强力驱动。特别感谢原作者的贡献！
 
-此脚本旨在通过筛选功能和界面优化，快速定位所需文件，解决浏览 GitHub Releases 页面时常见的两大痛点：
-    1. **发布说明过长**，不便快速定位文件发布列表。
+本脚本旨在解决 GitHub Releases 页面浏览的两大核心痛点：
+    1. **发布说明过长**，不便快速定位发布列表。
     2. **发布文件过多**，不易快速确定需求文件。
+通过优化说明界面和增加筛选功能，实现需求文件的快速定位，提升浏览体验。
 
 ## ✨ 主要功能
 
