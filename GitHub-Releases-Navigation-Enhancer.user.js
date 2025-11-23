@@ -3,16 +3,17 @@
 // @name:zh-CN           GitHub Releases 浏览优化
 // @name:en              GitHub Releases Navigation Enhancer
 // @namespace            https://github.com/wha4up
-// @icon                 data:image/webp;base64,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
-// @version              2.1.2
+// @icon                 https://raw.githubusercontent.com/wha4up/GitHub-Releases-Navigation-Enhancer/refs/heads/main/GithubFiler.webp
+// @version              2.2.0
 // @description          解决发布说明过长挤占发布列表空间、发布文件过多难定位目标文件的问题，通过优化说明界面和增加筛选功能，实现需求文件的快速定位，提升浏览体验。
 // @description:zh-CN    解决发布说明过长挤占发布列表空间、发布文件过多难定位目标文件的问题，通过优化说明界面和增加筛选功能，实现需求文件的快速定位，提升浏览体验。
-// @description:en       Tackles the issues of lengthy release notes taking up too much space and the difficulty of locating specific files among numerous assets. By optimizing the notes interface and adding powerful filtering features, it enables quick location of desired files and enhances the browsing experience.
+// @description:en       Tackles the issues of lengthy release notes taking up too much space and the difficulty of locating specific files among numerous assets. By optimizing the notes interface and adding powerful filtering features, it enables quick location of desired files and enhances the Browse experience.
 // @author               eecopilot,wha4up(with assistance from Gemini)
 // @match                https://github.com/*/*/releases
 // @match                https://github.com/*/*/releases/*
 // @grant                GM_setValue
 // @grant                GM_getValue
+// @grant                GM_deleteValue
 // @grant                GM_registerMenuCommand
 // @homepage             https://github.com/wha4up/GitHub-Releases-Navigation-Enhancer
 // @supportURL           https://github.com/wha4up/GitHub-Releases-Navigation-Enhancer/issues
@@ -72,6 +73,7 @@
             this.activePanel = null;
             this.boundClickHandler = null;
             this.lastTapTime = 0;
+            this.timerId = null;
         }
 
         initForPanel(panel) {
@@ -82,9 +84,13 @@
 
             if (!this.boundClickHandler) {
                 this.boundClickHandler = this.handleDocumentClick.bind(this);
-                setTimeout(() => {
+                if (this.timerId) {
+                    clearTimeout(this.timerId);
+                }
+                this.timerId = setTimeout(() => {
                     document.addEventListener('click', this.boundClickHandler, { capture: true });
                     document.addEventListener('touchend', this.boundClickHandler, { capture: true });
+                    this.timerId = null;
                 }, 50);
             }
         }
@@ -122,6 +128,10 @@
         }
 
         cleanup() {
+            if (this.timerId) {
+                clearTimeout(this.timerId);
+                this.timerId = null;
+            }
             if (this.boundClickHandler) {
                 document.removeEventListener('click', this.boundClickHandler, { capture: true });
                 document.removeEventListener('touchend', this.boundClickHandler, { capture: true });
@@ -221,11 +231,11 @@
             DEBOUNCE_DELAY: 200,
             POPUP_LEAVE_CLOSE_DELAY: 300,
             STORAGE_KEY_SETTINGS: 'ghre_user_settings_v3.8',
-            REGEX_CACHE_SIZE: 100,
             texts: {
                 filterButton: { zh: '筛选', en: 'Filter' }, expandButton: { zh: '展开 ▾', en: 'Expand ▾' },
                 collapseButton: { zh: '收起 ▴', en: 'Collapse ▴' }, settingsPanelTitle: { zh: '脚本设置 - GitHub Releases 优化', en: 'Settings - GitHub Releases Enhancer' },
                 settingsSaveButton: { zh: '保存设置', en: 'Save Settings' }, settingsCancelButton: { zh: '取消', en: 'Cancel' },
+                settingsBestMatchLabel: { zh: '启用“优胜劣汰” (有完美匹配时隐藏通用/兼容包)', en: 'Enable "Best Match" (Hide generic/compatible assets if perfect match exists)' },
                 settingsMaxHeightLabel: { zh: '发布说明默认最大高度 (px):', en: 'Release Notes Default Max Height (px):' },
                 settingsHiddenRuleLabel: { zh: "自定义隐藏关键字 (.开头为后缀, 否则为关键词, 词组需加''):", en: "Custom Hidden Keywords (. for suffix, keyword otherwise, use '' for phrases):" },
                 settingsHiddenRulePlaceholder: { zh: "例如: .sig, debug, 'source code'", en: "e.g.: .sig, debug, 'source code'" },
@@ -251,9 +261,12 @@
                 resetConfirmButton: { zh: '确认重置', en: 'Confirm Reset' },
             },
             PLATFORMS: [
-                { id: 'windows', name: 'Windows', exclusiveFormats: ['.exe', '.msi', '.msix'] }, { id: 'macos', name: 'MacOS', exclusiveFormats: ['.dmg', '.pkg'] },
-                { id: 'linux', name: 'Linux', exclusiveFormats: ['.deb', '.rpm', '.appimage'] }, { id: 'android', name: 'Android', exclusiveFormats: ['.apk', '.aab'] },
-                { id: 'ios', name: 'iOS', exclusiveFormats: ['.ipa'] }, { id: 'other_os', name: '未匹配', exclusiveFormats: [] }
+                { id: 'windows', name: 'Windows', exclusiveFormats: ['.exe', '.msi', '.msix'] },
+                { id: 'macos', name: 'MacOS', exclusiveFormats: ['.dmg', '.pkg', '.app.zip', '.app.tar', '.app.tar.gz', '.app.7z'] },
+                { id: 'linux', name: 'Linux', exclusiveFormats: ['.deb', '.rpm', '.appimage', '.flatpak', '.snap', '.tar.gz', '.tar', '.gz', '.bz2', '.xz', '.tar.xz', '.tar.bz2', '.tar.lz', '.pkg.zst'] },
+                { id: 'android', name: 'Android', exclusiveFormats: ['.apk', '.aab'] },
+                { id: 'ios', name: 'iOS', exclusiveFormats: ['.ipa'] },
+                { id: 'other_os', name: '未匹配', exclusiveFormats: [] }
             ],
             ARCH_TAGS_CONFIG: [
                 { id: 'x64', name: 'x64' },
@@ -265,9 +278,9 @@
             SOURCE_CODE_KEYWORDS: ['source code (zip)', 'source code (tar.gz)'],
             HIDDEN_KEYWORDS_DEFAULT: [
                 '.blockmap', '.rmp', '.sig', '.asc', '.sha256', '.md5', 'sha1', 'sha512',
-                '.pdb', '.sym', '.debug', '.map', '.symbols', '.dSYM'
+                '.pdb', '.sym', '.debug', '.map', '.symbols', '.dSYM', 'vendor'
             ],
-            AGNOSTIC_CONTAINERS: ['.zip', '.7z', '.tar.gz', '.rar', '.tar', '.gz', '.bz2', '.xz', '.tar.xz', '.tar.bz2', '.tar.lz', '.pkg.zst', '.app.tar', '.flatpak'],
+            AGNOSTIC_CONTAINERS: ['.zip', '.7z', '.rar'],
             LANGUAGES: {
                 'zh-hans': { name: '简体中文', keywords: ['zh-cn', 'zh-hans', 'chinese simplified', 'chs', '简体', '简中'] },
                 'zh-hant': { name: '繁體中文', keywords: ['zh-tw', 'zh-hk', 'zh-hant', 'chinese traditional', 'cht', '繁體', '正體', '繁中'] },
@@ -284,7 +297,7 @@
             CLASS_NAMES: {
                 MARKDOWN_BODY: 'markdown-body', RELEASE_NOTES_PANEL: 'my-3', TOGGLE_BUTTON: 'toggle-button', EXPANDED: 'expanded', FILTER_CONTAINER: 'ghre-filter-interaction-wrapper',
                 FILTER_BUTTON: 'ghre-filter-button', PLATFORM_OPTIONS: 'ghre-platform-options', PLATFORM_OPTIONS_INNER: 'ghre-platform-options-inner',
-                PLATFORM_OPTIONS_GRID: 'ghre-options-grid', PLATFORM_OPTIONS_OPEN: 'ghre-dropdown-open', PLATFORM_OPTION: 'ghre-platform-option',
+                PLATFORM_OPTIONS_GRID: 'ghre-platform-options-grid', PLATFORM_OPTIONS_OPEN: 'ghre-dropdown-open', PLATFORM_OPTION: 'ghre-platform-option',
                 ARCH_TAG_CONTAINER: 'ghre-arch-tag-container', ARCH_TAG: 'ghre-arch-tag',
                 KEYWORD_TOGGLE_OPTION: 'ghre-keyword-toggle-option', OPTIONS_SEPARATOR: 'ghre-options-separator', OPTIONS_TITLE: 'ghre-options-title', SELECTED: 'selected',
                 HIDDEN_ASSET: 'hidden-asset', HIDDEN_ASSET_COUNTER: 'ghre-hidden-asset-counter', SUMMARY_MARKER_ICON: 'ghre-summary-marker-icon',
@@ -325,12 +338,12 @@
         // [模块] 规则与定义 (Rules & Definitions)
         // =================================================================================
         platformArchRules: {
-            windows: { name: 'Windows', keywords: ['windows', 'win', 'win10', 'win11'], arch: { x64: ['win64', 'x64', 'amd64', 'x86_64'], x86: ['win32', 'x86', 'ia32', 'i386', 'i686', '386'], arm64: ['arm64'] } },
-            macos: { name: 'MacOS', keywords: ['macos', 'osx', 'darwin'], arch: { x64: ['x64', 'amd64', 'intel', 'x86_64'], arm64: ['arm64', 'aarch64', 'apple', 'universal'] } },
-            linux: { name: 'Linux', keywords: ['linux'], arch: { x64: ['x64', 'amd64', 'x86_64'], x86: ['x86', 'i386', 'i686', '386'], arm64: ['arm64', 'aarch64'], arm: ['armv7', 'armv6', 'armv5', 'armhf'] , oth:['risc-v', 'riscv', 'riscv64', 'powerpc', 'ppc64le', 'power', 'mips', 'mips64', 'mipsle', 's390x', 'loong64'] } },
+            windows: { name: 'Windows', keywords: ['windows', 'win', 'win10', 'win11', 'win32'], arch: { x64: ['win64', 'x64', 'amd64', 'x86_64'], x86: ['win32', 'x86', 'ia32', 'i386', 'i686', '386'], arm64: ['arm64'], oth: ['avx', 'avx2', 'avx512', 'sse', 'sse2', 'sse3', 'ssse3', 'sse4', 'sse4.1', 'sse4.2'] } },
+            macos: { name: 'MacOS', keywords: ['mac', 'macos', 'osx', 'darwin', 'universal'], arch: { x64: ['x64', 'amd64', 'intel', 'x86_64'], arm64: ['arm64', 'aarch64', 'apple', 'universal'] } },
+            linux: { name: 'Linux', keywords: ['linux', 'alpine'], arch: { x64: ['x64', 'amd64', 'x86_64'], x86: ['x86', 'i386', 'i686', '386'], arm64: ['arm64', 'aarch64'], arm: ['armv7', 'armv6', 'armv5', 'armhf'] , oth:['risc-v', 'riscv', 'riscv64', 'powerpc', 'ppc64le', 'power', 'mips', 'mips64', 'mipsle', 's390x', 'loong64', 'avx', 'avx2', 'avx512', 'sse', 'sse2', 'sse3', 'ssse3'] } },
             android: { name: 'Android', keywords: ['android'], arch: { arm64: ['arm64', 'arm64-v8a', 'aarch64'], arm: ['armeabi', 'armeabi-v7a'], x64: ['x64', 'x86_64', 'amd64'], x86: ['x86'] } },
             ios: { name: 'iOS', keywords: ['ios'], arch: { arm64: ['arm64', 'aarch64'], arm: ['arm'] } },
-            other_os: { name: 'Other OS', keywords: ['freebsd', 'netbsd', 'openbsd', 'solaris', 'plan9', 'sunos', 'bsd'] }
+            other_os: { name: 'Other OS', keywords: ['freebsd', 'netbsd', 'openbsd', 'solaris', 'plan9', 'sunos', 'bsd', 'aix', 'ppc64'] }
         },
 
         // =================================================================================
@@ -346,7 +359,6 @@
                     for (const key in options) {
                         if (key === 'className') { el.className = options[key]; }
                         else if (key === 'textContent') { el.textContent = options[key]; }
-                        else if (key === 'innerHTML') { el.innerHTML = options[key]; }
                         else if (key === 'style') { Object.assign(el.style, options[key]); }
                         else if (key === 'dataset') { for (const dataKey in options.dataset) { el.dataset[dataKey] = options.dataset[dataKey]; } }
                         else { el.setAttribute(key, options[key]); }
@@ -367,13 +379,13 @@
                 return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
             },
             getKeywordRegex(kw) {
-                if (this.keywordRegexCache.has(kw)) {
-                    const cachedRegex = this.keywordRegexCache.get(kw);
-                    this.keywordRegexCache.delete(kw);
-                    this.keywordRegexCache.set(kw, cachedRegex);
-                    return cachedRegex;
-                }
-                const regex = new RegExp(`(^|[^a-z0-9])${this.escapeRegExp(kw)}([^a-z0-9]|$)`, 'i');
+                if (kw.length > 100) return /(?!)/;
+
+                let regex = this.keywordRegexCache.get(kw);
+                if (regex) return regex;
+
+                regex = new RegExp(`(^|[^a-z0-9])${this.escapeRegExp(kw)}([^a-z0-9]|$)`, 'i');
+
                 if (this.keywordRegexCache.size >= this.maxCacheSize) {
                     const oldestKey = this.keywordRegexCache.keys().next().value;
                     this.keywordRegexCache.delete(oldestKey);
@@ -422,15 +434,18 @@
                     if (isSourceCode) {
                         return { platform: null, architecture: null, language: null, resolution: null, isSourceCode: true, isByKeyword: false, isAgnosticContainer: false };
                     }
-                    if (GRE.core.assetFilter.isHiddenAsset(text, GRE.store.state.hiddenKeywords)) {
-                         return { platform: null, architecture: null, language: null, resolution: null, isSourceCode: false, isByKeyword: true, isAgnosticContainer: false };
+
+                    const isByKeyword = GRE.core.assetFilter.isHiddenAsset(text, GRE.store.state.hiddenKeywords);
+                    let textForDetection = lowerText;
+                    if (isByKeyword) {
+                        textForDetection = lowerText.replace(/(\.sig|\.asc|\.sha\d+|\.md5|\.blockmap)$/, '');
                     }
 
                     let detectedPlatform = null, detectedArch = null,
                         detectedLang = null, detectedRes = null;
 
                     for (const platform of GRE.config.PLATFORMS) {
-                        if (platform.exclusiveFormats.some(ext => lowerText.endsWith(ext))) {
+                        if (platform.exclusiveFormats.some(ext => textForDetection.endsWith(ext))) {
                             detectedPlatform = platform.id;
                             break;
                         }
@@ -438,29 +453,23 @@
                     if (!detectedPlatform) {
                         for (const platformId in GRE.platformArchRules) {
                             const platformRule = GRE.platformArchRules[platformId];
-                            if (platformRule.keywords.some(kw => this.getKeywordRegex(kw).test(lowerText))) {
+                            if (platformRule.keywords.some(kw => this.getKeywordRegex(kw).test(textForDetection))) {
                                 detectedPlatform = platformId;
                                 break;
                             }
                         }
                     }
+
                     const archRules = detectedPlatform ? GRE.platformArchRules[detectedPlatform]?.arch : null;
                     if (archRules) {
                         const archCheckOrder = ['arm64', 'x64', 'x86', 'arm', 'oth'];
-
                         for (const archKey of archCheckOrder) {
                             if (Object.prototype.hasOwnProperty.call(archRules, archKey)) {
                                 const keywords = archRules[archKey];
-
                                 if (keywords.some(kw => {
-                                    if (archKey === 'x86' && (this.getKeywordRegex('x64').test(lowerText) || this.getKeywordRegex('amd64').test(lowerText) || this.getKeywordRegex('x86_64').test(lowerText))) {
-                                        return false;
-                                    }
-                                    if (archKey === 'arm' && (this.getKeywordRegex('arm64').test(lowerText) || this.getKeywordRegex('aarch64').test(lowerText))) {
-                                        return false;
-                                    }
-
-                                    return this.getKeywordRegex(kw).test(lowerText);
+                                    if (archKey === 'x86' && (this.getKeywordRegex('x64').test(textForDetection) || this.getKeywordRegex('amd64').test(textForDetection) || this.getKeywordRegex('x86_64').test(textForDetection))) return false;
+                                    if (archKey === 'arm' && (this.getKeywordRegex('arm64').test(textForDetection) || this.getKeywordRegex('aarch64').test(textForDetection))) return false;
+                                    return this.getKeywordRegex(kw).test(textForDetection);
                                 })) {
                                     detectedArch = archKey;
                                     break;
@@ -468,43 +477,101 @@
                             }
                         }
                     }
+
                     if (!detectedArch) {
-                        const generalArchMap = {
-                            'arm64': ['arm64', 'aarch64'], 'x64': ['x64', 'amd64', 'x86_64'],
-                            'x86': ['x86', 'i386', 'i686', '386', 'win32'], 'arm': ['armv7', 'armv6', 'armv5', 'armhf', 'armeabi', 'armel', 'arm']
-                        };
-                        const archDetectionOrder = ['arm64', 'x64', 'x86', 'arm'];
-                        for (const arch of archDetectionOrder) {
-                            if (generalArchMap[arch].some(kw => {
+                        if (!this._cachedGeneralArchMap) {
+                            const map = {};
+                            const allArchKeys = new Set();
+                            Object.values(GRE.platformArchRules).forEach(rule => {
+                                if (rule.arch) {
+                                    Object.keys(rule.arch).forEach(archKey => {
+                                        if (!map[archKey]) map[archKey] = new Set();
+                                        rule.arch[archKey].forEach(kw => map[archKey].add(kw));
+                                        allArchKeys.add(archKey);
+                                    });
+                                }
+                            });
+                            const priorityOrder = ['arm64', 'x64', 'x86', 'arm', 'oth'];
+                            const finalMap = {};
+                            priorityOrder.forEach(key => { if (map[key]) finalMap[key] = Array.from(map[key]); });
+                            allArchKeys.forEach(key => { if (!priorityOrder.includes(key) && map[key]) finalMap[key] = Array.from(map[key]); });
+
+                            this._cachedGeneralArchMap = finalMap;
+                            this._cachedArchDetectionOrder = priorityOrder.filter(k => finalMap[k]);
+                        }
+
+                        for (const arch of this._cachedArchDetectionOrder) {
+                            if (this._cachedGeneralArchMap[arch].some(kw => {
                                 const regex = this.getKeywordRegex(kw);
-                                if (kw === 'win32' && (this.getKeywordRegex('x64').test(lowerText) || this.getKeywordRegex('amd64').test(lowerText))) return false;
-                                if (arch === 'x86' && kw !== 'win32' && (this.getKeywordRegex('x64').test(lowerText) || this.getKeywordRegex('amd64').test(lowerText))) return false;
-                                if (arch === 'arm' && (this.getKeywordRegex('arm64').test(lowerText) || this.getKeywordRegex('aarch64').test(lowerText))) return false;
-                                return regex.test(lowerText);
+                                if (kw === 'win32' && (this.getKeywordRegex('x64').test(textForDetection) || this.getKeywordRegex('amd64').test(textForDetection))) return false;
+                                if (arch === 'x86' && kw !== 'win32' && (this.getKeywordRegex('x64').test(textForDetection) || this.getKeywordRegex('amd64').test(textForDetection))) return false;
+                                if (arch === 'arm' && (this.getKeywordRegex('arm64').test(textForDetection) || this.getKeywordRegex('aarch64').test(textForDetection))) return false;
+                                return regex.test(textForDetection);
                             })) {
                                 detectedArch = arch;
                                 break;
                             }
                         }
                     }
-                    if (detectedPlatform === 'macos' && (this.getKeywordRegex('apple').test(lowerText) || this.getKeywordRegex('universal').test(lowerText))) detectedArch = 'arm64';
+
+                    if (detectedPlatform === 'macos' && (this.getKeywordRegex('apple').test(textForDetection) || this.getKeywordRegex('universal').test(textForDetection))) detectedArch = 'arm64';
+
                     for (const langCode in GRE.config.LANGUAGES) {
-                        if (GRE.config.LANGUAGES[langCode].keywords.some(kw => this.getKeywordRegex(kw).test(lowerText))) {
+                        if (GRE.config.LANGUAGES[langCode].keywords.some(kw => this.getKeywordRegex(kw).test(textForDetection))) {
                             detectedLang = langCode;
                             break;
                         }
                     }
                     for (const resCode in GRE.config.RESOLUTIONS) {
-                        if (GRE.config.RESOLUTIONS[resCode].keywords.some(kw => this.getKeywordRegex(kw).test(lowerText))) {
+                        if (GRE.config.RESOLUTIONS[resCode].keywords.some(kw => this.getKeywordRegex(kw).test(textForDetection))) {
                             detectedRes = resCode;
                             break;
                         }
                     }
-                    return { platform: detectedPlatform, architecture: detectedArch, language: detectedLang, resolution: detectedRes, isSourceCode: false, isByKeyword: false, isAgnosticContainer };
+                    return { platform: detectedPlatform, architecture: detectedArch, language: detectedLang, resolution: detectedRes, isSourceCode: false, isByKeyword: isByKeyword, isAgnosticContainer };
                 } catch (error) {
                     console.error(`[GitHub Filter@${location.pathname}] Error parsing asset info:`, error, 'Input text:', text);
                     return { platform: null, architecture: null, language: null, resolution: null, isSourceCode: false, isByKeyword: false, isAgnosticContainer: false };
                 }
+            },
+            getBestMatchScore(info, state) {
+                if (state.selectedArchs.size > 0) {
+                    if (state.selectedArchs.has(info.architecture)) return 10;
+                    return 0;
+                }
+
+                if (state.selectedPlatforms.size > 0) {
+                    return 10;
+                }
+                return 0;
+            },
+            getNormalizedGroupName(name) {
+                const GRE = GithubReleaseEnhancer;
+
+                if (!this._cachedGroupingKeywords) {
+                    const keywordSet = new Set();
+
+                    Object.values(GRE.platformArchRules).forEach(platform => {
+                        platform.keywords.forEach(k => keywordSet.add(k));
+                        if (platform.arch) {
+                            Object.values(platform.arch).forEach(archList => {
+                                archList.forEach(k => keywordSet.add(k));
+                            });
+                        }
+                    });
+
+                    this._cachedGroupingKeywords = Array.from(keywordSet).sort((a, b) => b.length - a.length);
+                }
+
+                let lower = name.toLowerCase();
+
+                this._cachedGroupingKeywords.forEach(kw => {
+                     const regex = new RegExp(`(^|[^a-z0-9])${GRE.utils.escapeRegExp(kw)}([^a-z0-9]|$)`, 'g');
+                     lower = lower.replace(regex, '$1$2').replace(regex, '$1$2');
+                });
+
+                lower = lower.replace(/[._-]{2,}/g, '.').replace(/^[._-]+|[._-]+$/g, '');
+                return lower;
             },
         },
 
@@ -578,12 +645,6 @@
                 addGlobalStyles() { this.addStyleElement('common', this.commonStylesTemplate()); },
                 updateMaxHeightVar(height) { document.documentElement.style.setProperty('--ghre-notes-max-height', `${height}px`); }
             },
-            theme: {
-                watchSystemTheme() {
-                    const themeObserver = new MutationObserver(() => {});
-                    themeObserver.observe(document.documentElement, { attributes: true, attributeFilter: ['data-color-mode', 'data-light-theme', 'data-dark-theme'] });
-                }
-            },
         },
 
         // =================================================================================
@@ -648,7 +709,6 @@
                         const S = GRE.config.SELECTORS;
                         const allAssetElements = Array.from(document.querySelectorAll(S.ASSET_ROW));
 
-                        // --- 阶段一：初步独立解析每个资源 ---
                         const initialParsedAssets = allAssetElements.map(assetElement => {
                             const assetLink = assetElement.querySelector(S.ASSET_DOWNLOAD_LINK);
                             let assetName;
@@ -664,7 +724,6 @@
                             return { element: assetElement, name: assetName, info: assetInfo };
                         });
 
-                        // --- 阶段二：上下文推断与修正 ---
                         const explicitPlatforms = new Set();
                         initialParsedAssets.forEach(({ info }) => {
                             if (info.platform && info.platform !== 'other_os') {
@@ -825,7 +884,8 @@
                         assetsSummary.querySelector(`.${CN.SUMMARY_MARKER_ICON}`)?.remove();
                         assetsSummary.querySelector(`.${CN.FILTER_CONTAINER}`)?.remove();
                         Object.assign(assetsSummary.style, { display: 'flex', alignItems: 'center' });
-                        const newMarkerSvgSpan = createElement('span', { className: CN.SUMMARY_MARKER_ICON, innerHTML: icons.disclosure_triangle_right_svg });
+                        const newMarkerSvgSpan = createElement('span', { className: CN.SUMMARY_MARKER_ICON });
+                        newMarkerSvgSpan.innerHTML = icons.disclosure_triangle_right_svg;
                         assetsSummary.insertBefore(newMarkerSvgSpan, assetsSummary.firstChild);
                         const filterInteractionWrapper = createElement('div', { className: CN.FILTER_CONTAINER, style: { marginLeft: 'auto', display: 'inline-flex' } });
                         filterInteractionWrapper.appendChild(this.createFilterButton());
@@ -849,8 +909,17 @@
                         type: 'button', className: `btn btn-sm hx_rsm-trigger ${CN.FILTER_BUTTON}`,
                         style: { paddingLeft: '0.75rem', paddingRight: '0.75rem', marginRight: '0px', display: 'inline-flex', alignItems: 'center' },
                         'aria-haspopup': 'true', 'aria-expanded': 'false',
-                        innerHTML: `${icons.filter}<span>${GRE.utils.getText('filterButton')}</span><span ${S.FILTER_COUNTER.slice(1, -1)} title="${GRE.utils.getText('activeFilterCountTitle')}" class="Counter ml-2">0</span>`
                     });
+
+                    btn.insertAdjacentHTML('afterbegin', icons.filter);
+
+                    const textSpan = GRE.utils.createElement('span', { textContent: GRE.utils.getText('filterButton') });
+                    btn.appendChild(textSpan);
+
+                    const counterSpan = GRE.utils.createElement('span', { className: 'Counter ml-2', textContent: '0', title: GRE.utils.getText('activeFilterCountTitle') });
+                    counterSpan.dataset.ghreFilterCounter = "true";
+                    btn.appendChild(counterSpan);
+
                     btn.addEventListener('click', (event) => {
                         event.stopPropagation();
                         GRE.actions.toggleDropdown();
@@ -949,8 +1018,9 @@
                     const settingsBtn = createElement('button', {
                         className: CN.POPUP_SETTINGS_BTN,
                         title: GRE.utils.getText('settingsMenuName'),
-                        innerHTML: GRE.icons.gear
                     });
+                    settingsBtn.innerHTML = GRE.icons.gear;
+
                     settingsBtn.addEventListener('click', () => {
                         this.closePopup();
                         GRE.settings.showSettingsPanel();
@@ -1148,12 +1218,13 @@
                         const { selectedPlatforms } = state;
                         if (selectedPlatforms.size === 0) return true;
                         if (assetInfo.platform) return selectedPlatforms.has(assetInfo.platform);
+                        if (assetInfo.isAgnosticContainer) return true;
                         return selectedPlatforms.has('other_os');
                     },
                     arch(assetInfo, state) {
                         const { selectedArchs } = state;
                         if (selectedArchs.size === 0) return true;
-                        if (assetInfo.architecture === null) return false;
+                        if (assetInfo.architecture === null) return true;
                         return selectedArchs.has(assetInfo.architecture);
                     },
                     language(assetInfo, state, context) {
@@ -1177,8 +1248,10 @@
                         return;
                     }
 
-                    const hasMeaningfulPlatformInfo = parsedAssets.some(p => p.info.platform && p.info.platform !== 'other_os');
+                    const hasActiveFilters = state.selectedPlatforms.size > 0 || state.selectedArchs.size > 0;
+                    const shouldRunBestMatch = state.enableBestMatch && hasActiveFilters;
 
+                    const hasMeaningfulPlatformInfo = parsedAssets.some(p => p.info.platform && p.info.platform !== 'other_os');
                     const platformScanResults = parsedAssets.reduce((acc, { info }) => {
                         const platformKey = info.platform || 'unknown';
                         if (!acc[platformKey]) {
@@ -1197,42 +1270,74 @@
 
                     let hiddenCount = 0;
                     const domUpdateTasks = [];
+                    const bestMatchCandidates = new Map();
 
-                    parsedAssets.forEach(asset => {
+                    parsedAssets.forEach((asset, index) => {
                         const { element: assetElement, name: assetName, info: assetInfo } = asset;
                         if (!assetName) {
                             domUpdateTasks.push({ element: assetElement, show: true });
                             return;
                         }
 
-                        let shouldShow;
+                        let passesBasicFilters;
 
                         if (assetInfo.isSourceCode) {
-                            shouldShow = !state.hideSourceCode;
-                        } else if (assetInfo.isByKeyword) {
-                            shouldShow = !state.hideByKeyword;
+                            passesBasicFilters = !state.hideSourceCode;
                         } else {
+                            let keywordAllowed = true;
+                            if (assetInfo.isByKeyword) {
+                                keywordAllowed = !state.hideByKeyword;
+                            }
+
                             const context = platformScanResults[assetInfo.platform || 'unknown'];
                             let passesPlatformAndArch;
 
                             if (hasMeaningfulPlatformInfo) {
-                                // 标准模式：同时检查平台和架构
                                 passesPlatformAndArch = this.rules.platform(assetInfo, state) && this.rules.arch(assetInfo, state);
                             } else {
-                                // 平台无关模式：仅检查架构
                                 passesPlatformAndArch = this.rules.arch(assetInfo, state);
                             }
 
                             const passesSupplementary = this.rules.language(assetInfo, state, context) &&
                                                         this.rules.resolution(assetInfo, state, context);
-                            shouldShow = passesPlatformAndArch && passesSupplementary;
+
+                            passesBasicFilters = keywordAllowed && passesPlatformAndArch && passesSupplementary;
                         }
 
-                        domUpdateTasks.push({ element: assetElement, show: shouldShow });
-                        if (!shouldShow) {
-                            hiddenCount++;
+                        if (shouldRunBestMatch && passesBasicFilters && !assetInfo.isSourceCode) {
+                            const groupKey = GRE.utils.getNormalizedGroupName(assetName);
+                            if (groupKey) {
+                                if (!bestMatchCandidates.has(groupKey)) {
+                                    bestMatchCandidates.set(groupKey, []);
+                                }
+                                bestMatchCandidates.get(groupKey).push({
+                                    index: index,
+                                    score: GRE.utils.getBestMatchScore(assetInfo, state)
+                                });
+                            }
                         }
+
+                        domUpdateTasks.push({ element: assetElement, show: passesBasicFilters });
+                        if (!passesBasicFilters) hiddenCount++;
                     });
+
+                    if (shouldRunBestMatch) {
+                        bestMatchCandidates.forEach(candidates => {
+                            if (candidates.length <= 1) return;
+                            const maxScore = Math.max(...candidates.map(c => c.score));
+                            if (maxScore >= 1) {
+                                candidates.forEach(candidate => {
+                                    if (candidate.score < maxScore) {
+                                        const task = domUpdateTasks[candidate.index];
+                                        if (task.show) {
+                                            task.show = false;
+                                            hiddenCount++;
+                                        }
+                                    }
+                                });
+                            }
+                        });
+                    }
 
                     const assetList = document.querySelector(GRE.config.SELECTORS.ASSET_LIST_CONTAINER);
                     requestAnimationFrame(() => {
@@ -1243,7 +1348,6 @@
                             assetList.classList.remove(GRE.config.CLASS_NAMES.ASSET_LIST_LOADING);
                         }
                     });
-
                     this.updateHiddenAssetsCounter(hiddenCount);
                 }
             }
@@ -1340,6 +1444,7 @@
                     hiddenKeywords: [...C.HIDDEN_KEYWORDS_DEFAULT],
                     clickOutsideToCollapse: true,
                     filterMode: 'smart',
+                    enableBestMatch: true,
                     preferredFilters: {},
                 };
 
@@ -1398,14 +1503,16 @@
                     <div class="ghre-confirm-title">${getText('resetConfirmationTitle')}</div>
                     <div class="ghre-confirm-message">${getText('resetConfirmationMessage')}</div>
                     <div class="ghre-confirm-actions">
-                        <button class="btn btn-sm" data-action="cancel-reset">${getText('settingsCancelButton')}</button>
-                        <button class="btn btn-sm btn-danger" data-action="confirm-reset">${getText('resetConfirmButton')}</button>
+                        <button type="button" class="btn btn-sm" data-action="cancel-reset">${getText('settingsCancelButton')}</button>
+                        <button type="button" class="btn btn-sm btn-danger" data-action="confirm-reset">${getText('resetConfirmButton')}</button>
                     </div>
                 `;
 
                 dialog.addEventListener('click', (e) => {
                     e.stopPropagation();
-                    const action = e.target.dataset.action;
+                    const btn = e.target.closest('button');
+                    if (!btn) return;
+                    const action = btn.dataset.action;
                     if (action === 'cancel-reset') {
                         dialog.remove();
                     } else if (action === 'confirm-reset') {
@@ -1452,24 +1559,24 @@
                     panelHTML += `<div class="${CN.SETTINGS_FORM_GROUP}">
                         <label class="${CN.SETTINGS_LABEL}">${GRE.utils.getText('filterModeLabel')}</label>
                         <div class="ghre-radio-group-container">
-                            ${createRadioGroup('filterMode', 'smart', 'intelligentFilterLabel', state.filterMode === 'smart')}
+                            <div class="ghre-radio-group"><input type="radio" id="ghre-radio-smart" name="filterMode" value="smart"><label for="ghre-radio-smart" class="${CN.SETTINGS_LABEL}" style="margin-bottom:0;">${GRE.utils.getText('intelligentFilterLabel')}</label></div>
                             <div class="ghre-pref-group">
-                                ${createRadioGroup('filterMode', 'preferred', 'preferredFilterLabel', state.filterMode === 'preferred')}
-                                <button class="btn btn-sm" id="ghreSavePrefsBtn" style="margin-left: 4px;">${GRE.utils.getText('savePrefsButton')}</button>
+                                <div class="ghre-radio-group"><input type="radio" id="ghre-radio-preferred" name="filterMode" value="preferred"><label for="ghre-radio-preferred" class="${CN.SETTINGS_LABEL}" style="margin-bottom:0;">${GRE.utils.getText('preferredFilterLabel')}</label></div>
+                                <button type="button" class="btn btn-sm" id="ghreSavePrefsBtn" style="margin-left: 4px;">${GRE.utils.getText('savePrefsButton')}</button>
                             </div>
                         </div>
                     </div>`;
 
-                    panelHTML += `<div class="${CN.SETTINGS_FORM_GROUP}"><label for="${S.SETTINGS_MAX_HEIGHT_INPUT.substring(1)}" class="${CN.SETTINGS_LABEL}">${GRE.utils.getText('settingsMaxHeightLabel')}</label><input type="number" id="${S.SETTINGS_MAX_HEIGHT_INPUT.substring(1)}" class="${CN.SETTINGS_INPUT}" value="${state.releaseNotesMaxHeight}" min="50" step="10"></div>`;
-                    panelHTML += `<div class="${CN.SETTINGS_FORM_GROUP}"><label for="${S.SETTINGS_HIDDEN_RULES_TEXTAREA.substring(1)}" class="${CN.SETTINGS_LABEL}">${GRE.utils.getText('settingsHiddenRuleLabel')}</label><textarea id="${S.SETTINGS_HIDDEN_RULES_TEXTAREA.substring(1)}" class="${CN.SETTINGS_TEXTAREA}" placeholder="${GRE.utils.getText('settingsHiddenRulePlaceholder')}">${state.hiddenKeywords.map(k => k.includes(' ') ? `'${k}'` : k).join(', ')}</textarea></div>`;
-
+                    panelHTML += `<div class="${CN.SETTINGS_FORM_GROUP}"><label for="${S.SETTINGS_MAX_HEIGHT_INPUT.substring(1)}" class="${CN.SETTINGS_LABEL}">${GRE.utils.getText('settingsMaxHeightLabel')}</label><input type="number" id="${S.SETTINGS_MAX_HEIGHT_INPUT.substring(1)}" class="${CN.SETTINGS_INPUT}" min="50" step="10"></div>`;
+                    panelHTML += `<div class="${CN.SETTINGS_FORM_GROUP}"><label for="${S.SETTINGS_HIDDEN_RULES_TEXTAREA.substring(1)}" class="${CN.SETTINGS_LABEL}">${GRE.utils.getText('settingsHiddenRuleLabel')}</label><textarea id="${S.SETTINGS_HIDDEN_RULES_TEXTAREA.substring(1)}" class="${CN.SETTINGS_TEXTAREA}" placeholder="${GRE.utils.getText('settingsHiddenRulePlaceholder')}"></textarea></div>`;
                     panelHTML += createCheckboxGroup(S.SETTINGS_CLICK_OUTSIDE_CHECKBOX.substring(1), 'settingsClickOutsideLabel', state.clickOutsideToCollapse);
+                    panelHTML += createCheckboxGroup('ghreBestMatchCheckbox', 'settingsBestMatchLabel', state.enableBestMatch);
 
                     const actionsContainer = createElement('div', { className: CN.SETTINGS_ACTIONS });
-                    const resetButton = createElement('button', { className: `btn btn-danger ${CN.SETTINGS_BUTTON}`, dataset: { action: 'reset' }, textContent: GRE.utils.getText('settingsResetButton') });
+                    const resetButton = createElement('button', { type: 'button', className: `btn btn-danger ${CN.SETTINGS_BUTTON}`, dataset: { action: 'reset' }, textContent: GRE.utils.getText('settingsResetButton') });
                     const spacer = createElement('div', { style: { flexGrow: '1' } });
-                    const cancelButton = createElement('button', { className: `btn ${CN.SETTINGS_BUTTON}`, dataset: { action: 'cancel' }, textContent: GRE.utils.getText('settingsCancelButton') });
-                    const saveButton = createElement('button', { className: `btn btn-primary ${CN.SETTINGS_BUTTON}`, dataset: { action: 'save' }, textContent: GRE.utils.getText('settingsSaveButton') });
+                    const cancelButton = createElement('button', { type: 'button', className: `btn ${CN.SETTINGS_BUTTON}`, dataset: { action: 'cancel' }, textContent: GRE.utils.getText('settingsCancelButton') });
+                    const saveButton = createElement('button', { type: 'button', className: `btn btn-primary ${CN.SETTINGS_BUTTON}`, dataset: { action: 'save' }, textContent: GRE.utils.getText('settingsSaveButton') });
 
                     actionsContainer.append(resetButton, spacer, cancelButton, saveButton);
                     settingsPanelElement.innerHTML = panelHTML;
@@ -1477,6 +1584,10 @@
 
                     settingsOverlayElement.appendChild(settingsPanelElement);
                     document.body.appendChild(settingsOverlayElement);
+
+                    settingsPanelElement.querySelector(`input[name="filterMode"][value="${state.filterMode}"]`).checked = true;
+                    settingsPanelElement.querySelector(S.SETTINGS_MAX_HEIGHT_INPUT).value = state.releaseNotesMaxHeight;
+                    settingsPanelElement.querySelector(S.SETTINGS_HIDDEN_RULES_TEXTAREA).value = state.hiddenKeywords.map(k => k.includes(' ') ? `'${k}'` : k).join(', ');
 
                     const savePrefsBtn = settingsPanelElement.querySelector('#ghreSavePrefsBtn');
                     const preferredRadio = settingsPanelElement.querySelector('input[name="filterMode"][value="preferred"]');
@@ -1522,12 +1633,14 @@
                         const hiddenRulesInput = settingsPanelElement.querySelector(S.SETTINGS_HIDDEN_RULES_TEXTAREA).value;
                         const hiddenKeywords = this.parseHiddenKeywords(hiddenRulesInput);
                         const clickOutside = settingsPanelElement.querySelector(S.SETTINGS_CLICK_OUTSIDE_CHECKBOX).checked;
+                        const enableBestMatch = settingsPanelElement.querySelector('#ghreBestMatchCheckbox').checked;
                         const filterMode = settingsPanelElement.querySelector('input[name="filterMode"]:checked').value;
 
                         this.saveUserSettings({
-                            releaseNotesMaxHeight: (!isNaN(maxHeight) && maxHeight >= 50) ? maxHeight : GRE.config.RELEASE_NOTES_MAX_HEIGHT_DEFAULT,
+                            releaseNotesMaxHeight: (!isNaN(maxHeight) && maxHeight >= 50) ? Math.min(maxHeight, 2000) : GRE.config.RELEASE_NOTES_MAX_HEIGHT_DEFAULT,
                             hiddenKeywords: hiddenKeywords.length > 0 ? hiddenKeywords : [...GRE.config.HIDDEN_KEYWORDS_DEFAULT],
                             clickOutsideToCollapse: clickOutside,
+                            enableBestMatch: enableBestMatch,
                             filterMode: filterMode,
                         });
                         this.hideSettingsPanel();
@@ -1723,7 +1836,7 @@
                         }
                     }
 
-                    if (validatedSelectedPlatforms.size > 0 && preferredFilters.selectedArchs) {
+                    if (preferredFilters.selectedArchs) {
                         for (const arch of preferredFilters.selectedArchs) {
                             if (state.masterAvailableArchs.has(arch)) {
                                 validatedSelectedArchs.add(arch);
@@ -1735,24 +1848,33 @@
                         selectedPlatforms: validatedSelectedPlatforms,
                         selectedArchs: validatedSelectedArchs,
                     };
-                } else { // 智能筛选模式
+                } else {
                     const parsedAssets = GithubReleaseEnhancer.core.assetFilter.getParsedAssets();
                     const hasMeaningfulPlatformInfo = parsedAssets.some(p => p.info.platform && p.info.platform !== 'other_os');
 
                     const selectedPlatforms = new Set();
                     const selectedArchs = new Set();
 
-                    if (hasMeaningfulPlatformInfo) {
-                        // 标准模式：平台必须匹配
-                        if (state.availableFilters.has(state.currentUserPlatform)) {
-                            selectedPlatforms.add(state.currentUserPlatform);
-                            // 平台匹配后，再匹配架构
-                            if (state.masterAvailableArchs.has(state.currentUserArchitecture)) {
-                                selectedArchs.add(state.currentUserArchitecture);
+                    if (state.availableFilters.has(state.currentUserPlatform)) {
+                        selectedPlatforms.add(state.currentUserPlatform);
+                    }
+
+                    if (selectedPlatforms.has(state.currentUserPlatform)) {
+                        const archsAvailableForCurrentUserPlatformAssets = new Set();
+                        parsedAssets.filter(asset =>
+                            asset.info.platform === state.currentUserPlatform ||
+                            (asset.info.platform === null && asset.info.isAgnosticContainer)
+                        ).forEach(asset => {
+                            if (asset.info.architecture) {
+                                archsAvailableForCurrentUserPlatformAssets.add(asset.info.architecture);
                             }
+                        });
+
+
+                        if (archsAvailableForCurrentUserPlatformAssets.has(state.currentUserArchitecture)) {
+                            selectedArchs.add(state.currentUserArchitecture);
                         }
-                    } else {
-                        // 平台无关模式：直接匹配架构
+                    } else if (!hasMeaningfulPlatformInfo) {
                         if (state.masterAvailableArchs.has(state.currentUserArchitecture)) {
                             selectedArchs.add(state.currentUserArchitecture);
                         }
@@ -1819,6 +1941,7 @@
                     isDropdownOpen: false, availableFilters: new Set(), releaseNotesMaxHeight: 0,
                     hiddenKeywords: [],
                     clickOutsideToCollapse: true,
+                    enableBestMatch: true,
                     initialFilterState: null,
                     filterMode: 'smart',
                     preferredFilters: {},
@@ -1859,7 +1982,6 @@
                     this.core.assetFilter.updateFilterCounter(currentState);
                 });
 
-                this.ui.theme.watchSystemTheme();
                 this.core.releaseNotes.initializeExpansion();
 
                 if (!this.store.state.isMainReleasesPage) {
